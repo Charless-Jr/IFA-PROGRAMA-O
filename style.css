@@ -14,3 +14,43 @@ header{
    font-weight: bolder;
    flex: auto; 
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+}
+
+.coluna-imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coluna-imagens img {
+    width: 250px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.espaco-video {
+    width: 400px;
+    background-color: #000;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
